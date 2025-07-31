@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+@media screen and (max-width: 768px) {
+    * {
+        font-size: 14px;
+    }
+    
+
+
+
+
+
+
+}
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #141414;
+    color: #fff;
+    background-image: url(./images/ChatGPT\ Image\ Jul\ 30\,\ 2025\,\ 11_50_38\ PM.png);
+    background-size: cover;
+    height: 100dvh;
+}
+header{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between; /* Adiciona espaço entre os itens */
+    padding-top: 11px;
+#logo{
+    width: 150px;
+    height: 50px;
+    background-image: url(./images/vecteezy_netflix-transparent-png-netflix-free-png_19956187.png);
+    background-size: cover;
+    margin-left: 20px;
+    align-self: flex-start;
+}
+#entrar{
+    align-self: flex-end;
+    margin-right: 20px;
+    
+}
+}
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 95dvh;
+
+}
+button{
+    width: 80px;
+    height: 38px;
+    background-color: #e50914;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    margin-top: 20px;
+    ;
+}
+button:hover{
+    background-color: #c5151e;
+    color: #000000;
+    transition: 0.3s;
+}
