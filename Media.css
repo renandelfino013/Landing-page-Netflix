@@ -111,7 +111,6 @@ button:hover{
     flex-direction: row;
     align-items: center;
     align-content: center;
-    box-shadow: #000000 0px 0px 10px;
     
 }
 #email1 {
